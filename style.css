@@ -8,7 +8,6 @@ body {
   background-image: url("./images/heroImage.jpg");
   background-size: cover;
   background-position: center;
-
   min-height: 100vh;
   width: 100%;
 }
@@ -22,7 +21,7 @@ body {
   text-align: left;
   color: #ffffff;
 }
-.hero-title {
+h1 {
   font-family: "Montaga", serif;
   margin: 1rem;
   font-size: 5rem;
@@ -30,5 +29,19 @@ body {
   text-transform: uppercase;
 }
 .hero-subtitle {
+  font-size: 1.5rem;
   font-family: "Epunda Slab", serif;
+}
+.primary-button {
+  width: 50%;
+  font-family: "Epunda Slab", serif;
+  background-color: #d8f36a;
+  color: #000000;
+  border: none;
+  padding: 10px 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background-color: #b0d24a;
 }
