@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/brandLogo.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -10,20 +11,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Home</title>
+    <title>Lucas - Snowboard Adventures</title>
   </head>
   <body>
-    <section class="hero-image" title="Snowey Mountain">
+    <section class="hero-image" title="Snowy Mountain">
+      <nav>
+        <ul>
+          <li>
+            <a href="/"
+              ><img
+                src="/images/brandLogo.svg"
+                alt="LUCAS SNOW"
+                style="height: 30px; width: 30px; margin-right: 10px"
+              />LUCAS SNOW</a
+            >
+          </li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
       <div class="hero-content">
         <h1>The Best Lines are not on the map.</h1>
         <p class="hero-subtitle">
           Small-group snowboard adventures. Big mountain days. Come for the
           powder. Leave with a story.
         </p>
-        <button onclick="location.href = 'about.html'" class="primary-button">
-          Ride with Lucas
-        </button>
-        <hr />
+        <a href="about.html" class="primary-button">Ride with Lucas</a>
+        <hr class="hero-divider" />
       </div>
     </section>
   </body>
